@@ -1,3 +1,6 @@
+
+Return "No Pester tests have been defined"
+
 $here = Split-Path -Path $MyInvocation.MyCommand.Path
 $parent = Split-Path -Path $here
 $module = Split-Path -Path $parent -Leaf
